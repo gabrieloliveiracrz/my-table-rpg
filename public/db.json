@@ -1,0 +1,62 @@
+{
+    "maps": [
+        {
+            "id": "map1",
+            "name": "Ruínas Antigas",
+            "image": "./maps/mapa-1.png",
+            "gridSize": 50,
+            "selected": true
+        },
+        {
+            "id": "map2",
+            "name": "Floresta Sombria",
+            "image": "./maps/mapa-2.jpeg",
+            "gridSize": 50,
+            "selected": false
+        },
+        {
+            "id": "map3",
+            "name": "Caverna de Gelo",
+            "image": "./maps/mapa-3.jpeg",
+            "gridSize": 50,
+            "selected": false
+        }
+    ],
+    "characters": [
+        {
+            "id": "char1",
+            "name": "Arthos",
+            "color": "red"
+        },
+        {
+            "id": "char2",
+            "name": "Lyra",
+            "color": "green"
+        },
+        {
+            "id": "char3",
+            "name": "Thorg",
+            "color": "blue"
+        }
+    ],
+    "positions": [
+        {
+            "characterId": "char1",
+            "mapId": "map1",
+            "x": 2,
+            "y": 3
+        },
+        {
+            "characterId": "char2",
+            "mapId": "map1",
+            "x": 4,
+            "y": 5
+        },
+        {
+            "characterId": "char3",
+            "mapId": "map1",
+            "x": 1,
+            "y": 1
+        }
+    ]
+}
