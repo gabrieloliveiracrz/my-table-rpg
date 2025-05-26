@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
 	return (
@@ -8,8 +9,8 @@ export default function Header() {
 					<Image
 						src="/avatar/garrosh.png"
 						alt="Avatar do personagem"
-						width={102}
-						height={102}
+						width={76}
+						height={76}
 						className="rounded-full"
 					/>
 					<div className="flex flex-col items-center">
@@ -19,9 +20,17 @@ export default function Header() {
 				</div>
 
 				<div className="flex items-center gap-10 justify-around">
-					<h2 className="text-2xl">Mesa</h2>
-					<h2 className="text-2xl">Ficha</h2>
-					<h2 className="text-2xl">Inventario</h2>
+					<Link href="/table" className="text-gray-300 hover:text-white">
+						Mesa
+					</Link>
+
+					<Link href="/character" className="text-gray-300 hover:text-white">
+						Ficha do Personagem
+					</Link>
+
+					<Link href="/inventory" className="text-gray-300 hover:text-white">
+						Inventário
+					</Link>
 				</div>
 
 				<div>

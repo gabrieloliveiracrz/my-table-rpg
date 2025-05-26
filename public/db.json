@@ -20,6 +20,13 @@
             "image": "./maps/mapa-3.jpeg",
             "gridSize": 50,
             "selected": false
+        },
+        {
+            "id": "map4",
+            "name": "Casa do Dragão",
+            "image": "./maps/mapa-4.jpg",
+            "gridSize": 50,
+            "selected": false
         }
     ],
     "characters": [

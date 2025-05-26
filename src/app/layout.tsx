@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
-			<body className="bg-gray-900 text-gray-100 antialiased bg-no-repeat bg-top md:bg-right-top">
+			<body className="bg-gradient-to-b from-[#110f1f] to-[#1a1a1a] text-gray-100 antialiased bg-no-repeat bg-top md:bg-right-top">
 				<main className="px-0 py-0">{children}</main>
 			</body>
 		</html>
